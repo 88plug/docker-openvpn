@@ -8,7 +8,7 @@ services:
   openvpn:
     cap_add:
      - NET_ADMIN
-    image: kylemanna/openvpn
+#    image: kylemanna/openvpn
     build: ./docker-openvpn/
     container_name: openvpn
     ports:
